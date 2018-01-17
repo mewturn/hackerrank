@@ -19,9 +19,9 @@ def sumSet(arr):
             mysum = value
             
         else:
-            current_substring += arr[i]
-            
+            current_substring += arr[i]          
             mysum = value * len(current_substring)
         
         myset.add(mysum)
+    
     return myset

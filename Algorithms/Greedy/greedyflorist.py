@@ -1,7 +1,6 @@
 # Original Problem: https://www.hackerrank.com/challenges/greedy-florist/problem
 
 def getMinimumCost(n, k, c):
-    # Complete this function
     # Each time the number of purchases % number of people == 0, cost increases by one time (taken into account in mult)
     # Initialise multiplier, purchase count and total expenditure to = 0
     mult = purchases = total = 0

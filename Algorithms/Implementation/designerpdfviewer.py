@@ -1,7 +1,7 @@
 # Original Problem: https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
 
+
 def designerPdfViewer(h, word):
-    # Complete this function
     alphabets = 'abcdefghijklmnopqrstuvwxyz'
     alphadict = {}
     alphaset = {}

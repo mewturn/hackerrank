@@ -1,7 +1,6 @@
 # Original Problem: https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem
 
 def hackerrankInString(s):
-    # Complete this function
     mystring = 'hackerrank'
     matches = 0
     for i in range(len(s)):
@@ -11,4 +10,5 @@ def hackerrankInString(s):
             # Last Index
             if matches == len(mystring)-1:
                 return "YES"
+                
     return "NO"

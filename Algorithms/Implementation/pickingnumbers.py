@@ -1,8 +1,8 @@
 # Original Problem: https://www.hackerrank.com/challenges/picking-numbers/problem
 
 def pickingNumbers(a):
-    # Complete this function
     num_dict = {}
+    
     for elem in a:
         if elem in num_dict:
             num_dict[elem] += 1
@@ -11,6 +11,7 @@ def pickingNumbers(a):
     
     prev_num = None
     max_diff = diff =  0
+    
     for num in sorted(num_dict):
         if prev_num == None:
             prev_num = num
@@ -21,4 +22,5 @@ def pickingNumbers(a):
             if diff > max_diff:
                 max_diff = diff
         prev_num = num
+        
     return max_diff
