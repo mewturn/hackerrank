@@ -38,3 +38,6 @@ if __name__ == "__main__":
     cases = [{'a': 2, 'b': 3}, {'a': 9, 'b': 20}]
     for case in cases:
         print(partition(*case.values()))
+
+    # for i in range(int(input())):
+    #    print(partition(*list(map(int, input().split()))))
