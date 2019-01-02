@@ -7,7 +7,8 @@ def partition(a, b):
     m = 0
     growth = 2
 
-    while total_count == 0 or perfect_count/total_count >= a/b:
+    # while total_count == 0 or perfect_count/total_count >= a/b:
+    while m < 100_000:
         # Starting from m = 0, for 2 ** t to be an integer, m needs to grow by growth and growth grows by 2 each iteration (based on previous observations).
         # We can thus skip iterating through every m and instead iterate through the following growth rates.
         m += growth
